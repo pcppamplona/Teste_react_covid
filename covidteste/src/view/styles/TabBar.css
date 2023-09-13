@@ -1,0 +1,28 @@
+.TabBar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #09BC8A;
+    color: white;
+    padding: 5px;
+  }
+  
+  .TabBar button {
+    border: none;
+    background: none;
+    color: inherit;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 8px 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .TabBar button.active {
+    background-color: #f0f0f0;
+    color: #333;
+    border-radius: 4px;
+  }
+  
+  .Content {
+    margin-top: 20px;
+  }
+  

@@ -1,0 +1,65 @@
+/* Estilo para o container principal do formulário */
+.DataFormContainer {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  /* Estilo para o título do formulário */
+  .DataFormTitle {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para o formulário */
+  .DataForm {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .FormLine {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* Estilo para os grupos de campo no formulário */
+  .FormGroup {
+    margin-bottom: 15px;
+  }
+  
+  /* Estilo para os campos de entrada */
+  .FormControl {   
+    width: 98%; 
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  /* Estilo para o botão de envio */
+  .SubmitButton {
+    background-color: #184c6d;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  /* Estilo para a área de resultado JSON */
+  .json-result {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 14px;
+  }
+  

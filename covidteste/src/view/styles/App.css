@@ -1,0 +1,16 @@
+/* App.css */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+.AppHeaderLine {
+  height: 5px;
+  background-color: #133C55;
+}
+.AppTitle {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 20px;
+  background-color: #133C55;
+  color: white;
+}
