@@ -48,10 +48,15 @@ const StatusInCountries: React.FC = () => {
       </div>
       {covidData && (
         <div className="CountriesContainerInfo">
-          <h3>{covidData.country}</h3>
-          <p>Confirmados: {covidData.confirmed}</p>
-          <p>Mortes: {covidData.deaths}</p>
-          <p></p>
+          <h2 className="LabelColor">{covidData.country}</h2>
+          <div className="StateContainerInfoBox">
+            <div className="StateContainerInfoLabel">Confirmados</div>
+            <div className="StateContainerInfoText">{covidData.confirmed}</div>
+          </div>
+          <div className="StateContainerInfoBox">
+            <div className="StateContainerInfoLabel">Nº mortes</div>
+            <div className="StateContainerInfoText">{covidData.deaths}</div>
+          </div>
         </div>
       )}
     </div>

@@ -100,7 +100,29 @@ const StatusInBrasil: React.FC = () => {
 
           {filteredData.map((item: any) => (
             <div className="ListInfoStatesItems" key={item.uid}>
-              <div>
+              <h2 className="LabelColor">{item.uf}</h2>
+              <div className="StateContainerInfoBox">
+                <div className="StateContainerInfoLabel">Nº Casos</div>
+                <div className="StateContainerInfoText">{item.cases}</div>
+              </div>
+              <div className="StateContainerInfoBox">
+                <div className="StateContainerInfoLabel">Nº Mortes</div>
+                <div className="StateContainerInfoText">{item.deaths}</div>
+              </div>
+              <div className="StateContainerInfoBox">
+                <div className="StateContainerInfoLabel">Nº Suspeitos</div>
+                <div className="StateContainerInfoText">{item.suspects}</div>
+              </div>
+              <div className="StateContainerInfoBox">
+                <div className="StateContainerInfoLabel">Recusas</div>
+                <div className="StateContainerInfoText">{item.refuses}</div>
+              </div>
+              <div className="StateContainerInfoBox">
+                <div className="StateContainerInfoLabel">Data e Hora</div>
+                <div className="StateContainerInfoText">{item.datetime}</div>
+              </div>
+
+              {/* <div>
                 <b>UF: </b>
                 {item.uf}
               </div>
@@ -119,7 +141,7 @@ const StatusInBrasil: React.FC = () => {
               </div>
               <div>
                 <b>Data e Hora:</b> {item.datetime}
-              </div>
+              </div> */}
             </div>
           ))}
         </div>

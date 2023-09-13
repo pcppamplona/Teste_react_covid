@@ -32,7 +32,41 @@
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.StateContainerInfoBox {
+  width: 40%;
+  /* background-color: #09BC8A; */
+}
+
+.LabelColor {
+  color: #09bc89 ;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.StateContainerInfoLabel {
+  float: left;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.StateContainerInfoText {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc; 
+  margin-bottom: 18px;
+}
+
 
 /* Estiliza o próprio select */
 .CustomSelect {
